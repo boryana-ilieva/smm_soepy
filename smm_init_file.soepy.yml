@@ -16,36 +16,24 @@ SOLUTION:
     seed_emax: 635
     num_draws_emax: 500
 PARAMETERS:
-    optim_paras: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - !!python/name:numpy.ndarray ''
-        - !!python/tuple
-            - 0
-        - !!binary |
-            Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-            - 17
-        - !!python/object/apply:numpy.dtype
-            args:
-            - f8
-            - 0
-            - 1
-            state: !!python/tuple
-            - 3
-            - <
-            - null
-            - null
-            - null
-            - -1
-            - -1
-            - 0
-        - false
-        - !!binary |
-            ObTIdr6fFUCyne+nxksWQLKd76fGyxtA2/l+arx0wz8dWmQ730/NPy/dJAaBldM/MzMzMzMzwz/6
-            fmq8dJO4PxkEVg4tsr0/I9v5fmq8tD/Jdr6fGi+tP+Olm8QgsLI/mpmZmZmZub8zMzMzMzPTvwAA
-            AAAAAPA/AAAAAAAA9D+amZmZmZn5Pw==
+    optim_paras:
+    - 5.406
+    - 5.574
+    - 6.949
+    - 0.152
+    - 0.229
+    - 0.306
+    - 0.15
+    - 0.096
+    - 0.116
+    - 0.081
+    - 0.057
+    - 0.073
+    - -0.1
+    - -0.3
+    - 1.0
+    - 1.25
+    - 1.6
     order:
     - gamma_0s1
     - gamma_0s2

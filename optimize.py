@@ -10,7 +10,7 @@ import soepy
 from smm.objective import get_objective
 from smm.moments import get_moments
 from smm.moments_extended import get_moments_extended
-from smm.weighting_extended import get_weighting_matrix
+from smm.weighting import get_weighting_matrix
 
 # Specify init file
 init_file_name = 'toy_model_init_file_1000.yml'
