@@ -1,0 +1,66 @@
+---
+GENERAL:
+    num_periods: 10
+    num_choices: 3
+CONSTANTS:
+    delta: 0.98
+    mu: -0.56
+    benefits: 1850.0
+INITIAL_CONDITIONS:
+    educ_max: 14
+    educ_min: 10
+SIMULATION:
+    seed_sim: 102
+    num_agents_sim: 1000
+SOLUTION:
+    seed_emax: 635
+    num_draws_emax: 500
+PARAMETERS:
+    optim_paras: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - !!python/name:numpy.ndarray ''
+        - !!python/tuple
+            - 0
+        - !!binary |
+            Yg==
+        state: !!python/tuple
+        - 1
+        - !!python/tuple
+            - 17
+        - !!python/object/apply:numpy.dtype
+            args:
+            - f8
+            - 0
+            - 1
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - -1
+            - -1
+            - 0
+        - false
+        - !!binary |
+            ObTIdr6fFUCyne+nxksWQLKd76fGyxtA2/l+arx0wz8dWmQ730/NPy/dJAaBldM/MzMzMzMzwz/6
+            fmq8dJO4PxkEVg4tsr0/I9v5fmq8tD/Jdr6fGi+tP+Olm8QgsLI/mpmZmZmZub8zMzMzMzPTvwAA
+            AAAAAPA/AAAAAAAA9D+amZmZmZn5Pw==
+    order:
+    - gamma_0s1
+    - gamma_0s2
+    - gamma_0s3
+    - gamma_1s1
+    - gamma_1s2
+    - gamma_1s3
+    - g_s1
+    - g_s2
+    - g_s3
+    - delta_s1
+    - delta_s2
+    - delta_s3
+    - theta_p
+    - theta_f
+    - sigma_0
+    - sigma_1
+    - sigma_2
