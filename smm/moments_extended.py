@@ -19,7 +19,7 @@ def get_moments_extended (data_frame):
     data_frame['Wage Observed'] = data_frame.apply (lambda row: get_observed_wage (row),axis=1)
 
     # Determine years of part-time experience 
-    # by persion and period
+    # by person and period
     def get_part_time_ind (row):
         if row['Choice'] == 1:
             return 1
@@ -31,7 +31,7 @@ def get_moments_extended (data_frame):
     data_frame['Part Time Ind'] = data_frame.apply (lambda row: get_part_time_ind (row),axis=1)
 
     # Determine years of full-time experience 
-    # by persion and period
+    # by person and period
     def get_full_time_ind (row):
         if row['Choice'] == 2:
             return 1
@@ -172,8 +172,8 @@ def get_moments_extended (data_frame):
             moments['Choice Probability by FT Exp'][(full_time_exp)].append(stat)
 
     # Save moments dictionary to file
-    #fname = 'moments.soepy.extended.'
-    #json.dump(moments, open(fname + 'json', 'w'), indent=4, sort_keys=True)
-    #pkl.dump(moments, open(fname + 'pkl', 'wb'))
+    # fname = 'moments.soepy.extended.'
+    # json.dump(moments, open(fname + 'json', 'w'), indent=4, sort_keys=True)
+    # pkl.dump(moments, open(fname + 'pkl', 'wb'))
 
     return moments

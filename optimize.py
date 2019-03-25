@@ -1,9 +1,9 @@
-import pybobyqa
 import logging
 import yaml
+
+import pybobyqa
 import numpy as np
 import pandas as pd
-
 from functools import partial
 
 import soepy
@@ -11,13 +11,15 @@ from smm.objective import get_objective
 from smm.moments import get_moments
 from smm.moments_extended import get_moments_extended
 from smm.weighting import get_weighting_matrix
+from smm.weighting_extended import get_weighting_matrix_extended
+
 
 # Specify init file
 init_file_name = 'toy_model_init_file_1000.yml'
 
 # Get observed moments
 data_frame_observed = pd.read_csv('toy_model_sim_benchmark1.csv', sep = '\t')
-moments_obs = get_moments_extended(data_frame_observed)
+moments_obs = get_moments(data_frame_observed)
 #moments_obs_list = moments_dict_to_list_extended(moments_obs)
 
 # Get weighting matrix
@@ -66,10 +68,10 @@ soln = pybobyqa.solve (objective,
 print(soln)
 
 
-#print("")
-#print("** SciPy results **")
-#print("Solution xmin = %s" % str(soln.x))
-#print("Objective value f(xmin) = %.10g" % (soln.fun))
-#rint("Needed %g objective evaluations" % soln.nfev)
-#print("Exit flag = %g" % soln.status)
-#print(soln.message)
+# print("")
+# print("** SciPy results **")
+# print("Solution xmin = %s" % str(soln.x))
+# print("Objective value f(xmin) = %.10g" % (soln.fun))
+# print("Needed %g objective evaluations" % soln.nfev)
+# print("Exit flag = %g" % soln.status)
+# print(soln.message)

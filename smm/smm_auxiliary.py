@@ -8,7 +8,24 @@ def update_optim_paras(init_file_name, optim_paras):
     with open(init_file_name) as y:
         init_dict = yaml.load(y, Loader=yaml.FullLoader)
     
-    init_dict["PARAMETERS"]["optim_paras"] = optim_paras
+    init_dict["PARAMETERS"]["optim_paras"] = [optim_paras.item(0),
+                                              optim_paras.item(1),
+                                              optim_paras.item(2),
+                                              optim_paras.item(3),
+                                              optim_paras.item(4),
+                                              optim_paras.item(5),
+                                              optim_paras.item(6),
+                                              optim_paras.item(7),
+                                              optim_paras.item(8),
+                                              optim_paras.item(9),
+                                              optim_paras.item(10),
+                                              optim_paras.item(11),
+                                              optim_paras.item(12),
+                                              optim_paras.item(13),
+                                              optim_paras.item(14),
+                                              optim_paras.item(15),
+                                              optim_paras.item(16),
+                                              ]
 
     print_dict(init_dict)
     
