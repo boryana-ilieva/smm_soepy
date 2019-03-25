@@ -1,9 +1,8 @@
-import pandas as pd
 import numpy as np
 
 from smm.moments_extended import get_moments_extended
 
-def get_weighting_matrix(data_frame, num_agents_smm, num_samples):
+def get_weighting_matrix_extended(data_frame, num_agents_smm, num_samples):
     """Calculates the weighting matrix based on the
     moments of the observed data"""
     
@@ -13,8 +12,6 @@ def get_weighting_matrix(data_frame, num_agents_smm, num_samples):
     for k in range(num_samples):
 
         data_frame_sample = data_frame.sample(n=num_agents_smm)
-        
-        insample_periods = data_frame_sample['Period'].unique()
         
         moments_sample_k = get_moments_extended(data_frame_sample)
         
@@ -35,9 +32,9 @@ def get_weighting_matrix(data_frame, num_agents_smm, num_samples):
     moments_var[is_zero] = 0.1
     
     #Construct weighting matrix
-    weighting_matrix = np.diag(moments_var ** (-1))
+    weighting_matrix_extended = np.diag(moments_var ** (-1))
     
-    return weighting_matrix
+    return weighting_matrix_extended
 
 def moments_dict_to_list_extended(moments_dict):
     """This function constructs a list of available moments based on the moment dictionary."""
