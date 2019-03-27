@@ -24,7 +24,7 @@ init_file_name = 'toy_model_init_file_1000.yml'
 # Get observed moments
 data_frame_observed = pd.read_csv('toy_model_sim_benchmark1.csv', sep = '\t')
 moments_obs = get_moments(data_frame_observed)
-# moments_obs_list = moments_dict_to_list_extended(moments_obs)
+# git moments_obs_list = moments_dict_to_list_extended(moments_obs)
 
 # Get weighting matrix
 weighting_matrix = get_weighting_matrix(data_frame_observed, num_agents_smm = 1000, num_samples = 100)
