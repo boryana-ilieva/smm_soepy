@@ -1,53 +1,35 @@
----
-GENERAL:
-    num_periods: 10
-    num_choices: 3
-CONSTANTS:
-    delta: 0.98
-    mu: -0.56
-    benefits: 1850.0
-INITIAL_CONDITIONS:
-    educ_max: 12
-    educ_min: 10
-SIMULATION:
-    seed_sim: 102
-    num_agents_sim: 1000
-SOLUTION:
-    seed_emax: 635
-    num_draws_emax: 500
-PARAMETERS:
-    gamma_0s1: 5.406
-    gamma_0s2: 5.574
-    gamma_0s3: 6.949
-    gamma_1s1: 0.152
-    gamma_1s2: 0.229
-    gamma_1s3: 0.306
-    g_s1: 0.15
-    g_s2: 0.096
-    g_s3: 0.116
-    delta_s1: 0.081
-    delta_s2: 0.057
-    delta_s3: 0.073
-    theta_p: -0.1
-    theta_f: -0.3
-    sigma_1: 1.0
-    sigma_2: 1.25
-    sigma_3: 1.6
-    optim_paras:
-    - 5.404744433480354
-    - 5.573025530403671
-    - 6.950980062323339
-    - 0.1520072355531852
-    - 0.22899022495047153
-    - 0.30599258408008323
-    - 0.1501231765685976
-    - 0.09602227310948508
-    - 0.11594981727619738
-    - 0.08101289602364765
-    - 0.05696334453526689
-    - 0.07298887515149613
-    - -0.10003136949676543
-    - -0.2999902570422572
-    - 0.9999385884303227
-    - 1.248247782582732
-    - 1.60099147346001
+--- !!python/object/apply:collections.OrderedDict
+-   -   - GENERAL
+        -   num_choices: 3
+            num_periods: 10
+    -   - CONSTANTS
+        -   benefits: 1850.0
+            delta: 0.98
+            mu: -0.56
+    -   - INITIAL_CONDITIONS
+        -   educ_max: 12
+            educ_min: 10
+    -   - SIMULATION
+        -   num_agents_sim: 1000
+            seed_sim: 102
+    -   - SOLUTION
+        -   num_draws_emax: 500
+            seed_emax: 635
+    -   - PARAMETERS
+        -   delta_s1: 0.08101289602364765
+            delta_s2: 0.05696334453526689
+            delta_s3: 0.07298887515149613
+            g_s1: 0.1501231765685976
+            g_s2: 0.09602227310948508
+            g_s3: 0.11594981727619738
+            gamma_0s1: 5.404744433480354
+            gamma_0s2: 5.573025530403671
+            gamma_0s3: 6.950980062323339
+            gamma_1s1: 0.1520072355531852
+            gamma_1s2: 0.22899022495047153
+            gamma_1s3: 0.30599258408008323
+            sigma_1: 0.9999385884303227
+            sigma_2: 1.248247782582732
+            sigma_3: 1.60099147346001
+            theta_f: -0.2999902570422572
+            theta_p: -0.10003136949676543
