@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 
+# Turn off pandas warning in line 22
+pd.options.mode.chained_assignment = None
+
 
 def get_moments(data):
     # Drop rows with nan due to initial condition

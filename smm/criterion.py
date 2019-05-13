@@ -8,13 +8,9 @@ def calculate_criterion_func_value(moments_sim, moments_obs, weighting_matrix):
 
     for group in [
         "Wage Distribution",
-        #'Wage by Educ',
-        #'Wage by FT Exp',
-        #'Wage by PT Exp',
+        "Wage by Educ",
         "Choice Probability",
-        #'Choice Probability by Educ',
-        #'Choice Probability by FT Exp',
-        #'Choice Probability by PT Exp',
+        "Choice Probability by Educ",
     ]:
         for key_ in moments_obs[group].keys():
             stats_obs.extend(moments_obs[group][key_])

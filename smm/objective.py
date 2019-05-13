@@ -1,6 +1,5 @@
 import soepy
 from smm.moments import get_moments
-from smm.moments_extended import get_moments_extended
 from smm.criterion import calculate_criterion_func_value
 from smm.smm_auxiliary import update_optim_paras
 
