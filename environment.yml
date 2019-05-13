@@ -5,5 +5,7 @@ dependencies:
 - pandas
 - flake8
 - pytest
-- pandas 
-- pip: [oyaml, nbsphinx, Py-BOBYQA]
+- pandas
+- numba
+- pyyaml
+- pip: [Py-BOBYQA, black]
