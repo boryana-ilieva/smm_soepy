@@ -74,7 +74,7 @@ def get_moments(data):
 
     for period in sorted(data["Period"].unique().tolist()):
         moments["Choice Probability"][period] = []
-        for choice in sorted(data["Choice"].unique().tolist()):
+        for choice in range(3):
             try:
                 stat = info[(period, choice)]
             except KeyError:
@@ -92,7 +92,7 @@ def get_moments(data):
     for period in sorted(data["Period"].unique().tolist()):
         for educ_level in sorted(data["Years of Education"].unique().tolist()):
             moments["Choice Probability by Educ"][(period, educ_level)] = []
-            for choice in sorted(data["Choice"].unique().tolist()):
+            for choice in range(3):
                 try:
                     stat = info[(period, educ_level, choice)]
                 except KeyError:
