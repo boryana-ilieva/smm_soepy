@@ -106,7 +106,7 @@ soln = pybobyqa.solve(
     optim_paras_start,
     rhobeg=0.01,
     rhoend=1e-4,
-    maxfun=200,
+    maxfun=2,
     bounds=(lower, upper),
     scaling_within_bounds=True,
 )
