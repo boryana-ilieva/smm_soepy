@@ -1,6 +1,9 @@
 import collections
 import yaml
 
+import pandas as pd
+import numpy as np
+
 
 def update_optim_paras(init_file_name, optim_paras):
     """Update the parameters with values of 
@@ -46,3 +49,37 @@ def print_dict(init_dict, file_name="smm_init_file"):
 
     with open("{}.soepy.yml".format(file_name), "w") as outfile:
         yaml.dump(ordered_dict, outfile, explicit_start=True, indent=4)
+
+
+def pre_process_soep_data(file_name):
+    data_full = pd.read_stata(file_name)
+
+    # Restrict sample to age 50
+    data_30periods = data_full[data_full["age"] < 47]
+
+    # Restirct sample to west Germany
+    data = data_30periods[data_30periods["east"] == 0]
+
+    # Drop observations with missing values in hdegree
+    data = data[data["hdegree"].isna() == False]
+
+    # Generate period variable
+    def get_period(row):
+        return row["age"] - 17
+
+    data["Period"] = data.apply(lambda row: get_period(row), axis=1)
+
+    # Determine the observed wage given period choice
+    def recode_educ_level(row):
+        if row["hdegree"] == "Primary/basic vocational":
+            return 0
+        elif row["hdegree"] == "Abi/intermediate voc.":
+            return 1
+        elif row["hdegree"] == "University":
+            return 2
+        else:
+            return np.nan
+
+    data["Educ Level"] = data.apply(lambda row: recode_educ_level(row), axis=1)
+
+    return data

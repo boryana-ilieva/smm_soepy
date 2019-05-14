@@ -1,6 +1,6 @@
 import numpy as np
 
-from smm.moments import get_moments
+from smm.moments import get_moments_obs
 
 
 def get_weighting_matrix(data_frame, num_agents_smm, num_samples):
@@ -13,7 +13,7 @@ def get_weighting_matrix(data_frame, num_agents_smm, num_samples):
     for k in range(num_samples):
         data_frame_sample = data_frame.sample(n=num_agents_smm)
 
-        moments_sample_k = get_moments(data_frame_sample)
+        moments_sample_k = get_moments_obs(data_frame_sample)
 
         moments_sample.append(moments_sample_k)
 
