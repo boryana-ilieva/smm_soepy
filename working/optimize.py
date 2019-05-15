@@ -20,12 +20,12 @@ from smm.weighting import get_weighting_matrix
 
 
 # Get observed moments
-data_frame_observed = pre_process_soep_data('/Users/boryanailieva/Projects/Data/soepcore_prep.dta')
+data_frame_observed = pre_process_soep_data('/projekte/bilieva/homes/data/soepcore_prep.dta')
 moments_obs = get_moments_obs(data_frame_observed)
 
 # Get weighting matrix
 weighting_matrix = get_weighting_matrix(
-    data_frame_observed, num_agents_smm=1000, num_samples=100
+    data_frame_observed, num_agents_smm=6000, num_samples=200
 )
 
 # Specify init file
@@ -95,8 +95,8 @@ optim_paras_start = np.tile(
 )
 
 
-lower = optim_paras_start * 0.9
-upper = optim_paras_start * 1.1
+lower = optim_paras_start * 0.7
+upper = optim_paras_start * 1.3
 
 # Log
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -107,7 +107,7 @@ soln = pybobyqa.solve(
     optim_paras_start,
     rhobeg=0.01,
     rhoend=1e-4,
-    maxfun=10,
+    maxfun=1200,
     bounds=(lower, upper),
     scaling_within_bounds=True,
 )
