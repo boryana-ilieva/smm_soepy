@@ -116,22 +116,6 @@ def get_moments(data):
 
 
 def get_moments_obs(data):
-    # Generate wage for Non-Employment choice
-    data["wage_nw_imp"] = 6.00
-
-    # Determine the observed wage given period choice
-    def get_observed_wage(row):
-        if row["empchoice"] == "Full-Time":
-            return row["wage_ft"]
-        elif row["empchoice"] == "Part-Time":
-            return row["wage_pt"]
-        elif row["empchoice"] == "Non-Working":
-            return row["wage_nw_imp"]
-        else:
-            return np.nan
-
-    data["Wage Observed"] = data.apply(lambda row: get_observed_wage(row), axis=1)
-
     # Initialize moments dictionary
     moments = dict()
 
@@ -149,22 +133,24 @@ def get_moments_obs(data):
 
     # Save mean and standard deviation of wages for each period
     # to Wage Distribution section of the moments dictionary
-    for period in sorted(data["Period"].unique().tolist()):
-        if pd.isnull(info["std"][period]):
-            continue
+    for period in range(30):
         moments["Wage Distribution"][period] = []
-        for label in ["mean", "std"]:
-            moments["Wage Distribution"][period].append(info[label][period])
+        try:
+            for label in ["mean", "std"]:
+                moments["Wage Distribution"][period].append(info[label][period])
+        except KeyError:
+            for i in range(2):
+                moments["Wage Distribution"][period].append(
+                    0.0
+                )
 
     # Compute moments of the wage distribution by education
     info = data.groupby(["Period", "Educ Level"])["Wage Observed"].describe().to_dict()
 
-    for period in sorted(data["Period"].unique().tolist()):
+    for period in range(30):
         for educ_level in range(3):
             moments["Wage by Educ"][(period, educ_level)] = []
             try:
-                if pd.isnull(info["std"][(period, educ_level)]):
-                    continue
                 for label in ["mean", "std"]:
                     moments["Wage by Educ"][(period, educ_level)].append(
                         info[label][(period, educ_level)]
@@ -173,14 +159,16 @@ def get_moments_obs(data):
             # where moments cannot be calculated
             except KeyError:
                 for i in range(2):
-                    moments["Wage by Educ"][(period, educ_level)].append(0.0)
+                    moments["Wage by Educ"][(period, educ_level)].append(
+                        0.0
+                    )
 
     # Compute unconditional moments of the choice probabilities
-    info = data.groupby(["Period"])["empchoice"].value_counts(normalize=True).to_dict()
+    info = data.groupby(["Period"])["Choice"].value_counts(normalize=True).to_dict()
 
-    for period in sorted(data["Period"].unique().tolist()):
+    for period in range(30):
         moments["Choice Probability"][period] = []
-        for choice in data["empchoice"].unique().tolist():
+        for choice in range(3):
             try:
                 stat = info[(period, choice)]
             except KeyError:
@@ -188,17 +176,12 @@ def get_moments_obs(data):
             moments["Choice Probability"][period].append(stat)
 
     # Compute moments of choice probabilities by education
-    info = (
-        data.groupby(["Period", "Educ Level"])["empchoice"]
-        .value_counts(normalize=True)
-        .to_dict()
-    )
+    info = data.groupby(["Period", "Educ Level"])["Choice"].value_counts(normalize=True).to_dict()
 
-    # Compute moments of the choice probabilities by education
-    for period in sorted(data["Period"].unique().tolist()):
+    for period in range(30):
         for educ_level in range(3):
             moments["Choice Probability by Educ"][(period, educ_level)] = []
-            for choice in data["empchoice"].unique().tolist():
+            for choice in range(3):
                 try:
                     stat = info[(period, educ_level, choice)]
                 except KeyError:

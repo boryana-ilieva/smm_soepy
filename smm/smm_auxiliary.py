@@ -67,19 +67,57 @@ def pre_process_soep_data(file_name):
     def get_period(row):
         return row["age"] - 17
 
-    data["Period"] = data.apply(lambda row: get_period(row), axis=1)
+    data["Period"] = data.apply(
+        lambda row: get_period(row), axis=1
+    )
 
     # Determine the observed wage given period choice
     def recode_educ_level(row):
-        if row["hdegree"] == "Primary/basic vocational":
+        if row["hdegree"] == 'Primary/basic vocational':
             return 0
-        elif row["hdegree"] == "Abi/intermediate voc.":
+        elif row["hdegree"] == 'Abi/intermediate voc.':
             return 1
-        elif row["hdegree"] == "University":
+        elif row["hdegree"] == 'University':
             return 2
         else:
             return np.nan
 
-    data["Educ Level"] = data.apply(lambda row: recode_educ_level(row), axis=1)
+    data["Educ Level"] = data.apply(
+        lambda row: recode_educ_level(row), axis=1
+    )
+
+    # Recode choice
+    # Determine the observed wage given period choice
+    def recode_choice(row):
+        if row["empchoice"] == 'Full-Time':
+            return 2
+        elif row["empchoice"] == 'Part-Time':
+            return 1
+        elif row["empchoice"] == 'Non-Working':
+            return 0
+        else:
+            return np.nan
+
+    data["Choice"] = data.apply(
+        lambda row: recode_choice(row), axis=1
+    )
+
+    # Generate wage for Non-Employment choice
+    data["wage_nw_imp"] = 6.00
+
+    # Determine the observed wage given period choice
+    def get_observed_wage(row):
+        if row["empchoice"] == 'Full-Time':
+            return row["wage_ft"]
+        elif row["empchoice"] == 'Part-Time':
+            return row["wage_pt"]
+        elif row["empchoice"] == 'Non-Working':
+            return row["wage_nw_imp"]
+        else:
+            return np.nan
+
+    data["Wage Observed"] = data.apply(
+        lambda row: get_observed_wage(row), axis=1
+    )
 
     return data

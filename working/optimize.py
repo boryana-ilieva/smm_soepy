@@ -35,43 +35,10 @@ init_file_name = "sim_toy_model_init_file_1000.yml"
 objective = partial(get_objective, init_file_name, moments_obs, weighting_matrix)
 
 ###############################
-# Test
-
-# Define starting values
-optim_paras = np.tile(
-    (
-        1.792,
-        1.808,
-        1.856,
-        0.112,
-        0.199,
-        0.266,
-        0.150,
-        0.096,
-        0.116,
-        0.081,
-        0.057,
-        0.073,
-        1.88,
-        2.33,
-        0.010,
-        0.200,
-        0.400,
-    ),
-    1,
-)
-
-crit_function_value = get_objective(
-    init_file_name, moments_obs, weighting_matrix, optim_paras
-)
-
-print(crit_function_value)
-
-###############################
-
-
+# # Test
+#
 # # Define starting values
-# optim_paras_start = np.tile(
+# optim_paras = np.tile(
 #     (
 #         1.792,
 #         1.808,
@@ -94,25 +61,58 @@ print(crit_function_value)
 #     1,
 # )
 #
-#
-# lower = optim_paras_start * 0.9
-# upper = optim_paras_start * 1.1
-#
-# # Log
-# logging.basicConfig(level=logging.INFO, format="%(message)s")
-#
-# # Optimize
-# soln = pybobyqa.solve(
-#     objective,
-#     optim_paras_start,
-#     rhobeg=0.01,
-#     rhoend=1e-4,
-#     maxfun=2,
-#     bounds=(lower, upper),
-#     scaling_within_bounds=True,
+# crit_function_value = get_objective(
+#     init_file_name, moments_obs, weighting_matrix, optim_paras
 # )
 #
-# print(soln)
+# print(crit_function_value)
+
+##############################
+
+
+# Define starting values
+optim_paras_start = np.tile(
+    (
+        1.792,
+        1.808,
+        1.856,
+        0.112,
+        0.199,
+        0.266,
+        0.150,
+        0.096,
+        0.116,
+        0.081,
+        0.057,
+        0.073,
+        1.88,
+        2.33,
+        0.010,
+        0.200,
+        0.400,
+    ),
+    1,
+)
+
+
+lower = optim_paras_start * 0.9
+upper = optim_paras_start * 1.1
+
+# Log
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+
+# Optimize
+soln = pybobyqa.solve(
+    objective,
+    optim_paras_start,
+    rhobeg=0.01,
+    rhoend=1e-4,
+    maxfun=10,
+    bounds=(lower, upper),
+    scaling_within_bounds=True,
+)
+
+print(soln)
 
 
 # print("")

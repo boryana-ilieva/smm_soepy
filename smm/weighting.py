@@ -29,6 +29,9 @@ def get_weighting_matrix(data_frame, num_agents_smm, num_samples):
     # Calculate sample variances for each moment
     moments_var = np.array(stats).var(axis=0)
 
+    # Handling of nan
+    moments_var[np.isnan(moments_var)] = np.nanmax(moments_var)
+
     # Handling of zero variances
     is_zero = moments_var <= 1e-10
     moments_var[is_zero] = 0.1
