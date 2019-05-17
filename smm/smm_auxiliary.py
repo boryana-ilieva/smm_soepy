@@ -18,9 +18,12 @@ def update_optim_paras(init_file_name, optim_paras):
     init_dict["PARAMETERS"]["gamma_1s1"] = optim_paras.item(3)
     init_dict["PARAMETERS"]["gamma_1s2"] = optim_paras.item(4)
     init_dict["PARAMETERS"]["gamma_1s3"] = optim_paras.item(5)
-    init_dict["PARAMETERS"]["g_s1"] = optim_paras.item(6)
-    init_dict["PARAMETERS"]["g_s2"] = optim_paras.item(7)
-    init_dict["PARAMETERS"]["g_s3"] = optim_paras.item(8)
+    init_dict["PARAMETERS"]["g_s1"] = 1.0
+    init_dict["PARAMETERS"]["g_s2"] = 1.0
+    init_dict["PARAMETERS"]["g_s3"] = 1.0
+    # init_dict["PARAMETERS"]["g_s1"] = optim_paras.item(6)
+    # init_dict["PARAMETERS"]["g_s2"] = optim_paras.item(7)
+    # init_dict["PARAMETERS"]["g_s3"] = optim_paras.item(8)
     init_dict["PARAMETERS"]["delta_s1"] = optim_paras.item(9)
     init_dict["PARAMETERS"]["delta_s2"] = optim_paras.item(10)
     init_dict["PARAMETERS"]["delta_s3"] = optim_paras.item(11)
