@@ -10,7 +10,6 @@ sys.path.append(
 
 import pybobyqa
 import numpy as np
-import pandas as pd
 from functools import partial
 
 from smm.smm_auxiliary import pre_process_soep_data
@@ -20,7 +19,13 @@ from smm.weighting import get_weighting_matrix
 
 
 # Get observed moments
-data_frame_observed = pre_process_soep_data('/projekte/bilieva/homes/data/soepcore_prep.dta')
+
+# Server path
+# data_frame_observed = pre_process_soep_data('/projekte/bilieva/homes/data/soepcore_prep.dta')
+
+# Mac path
+data_frame_observed = pre_process_soep_data('/Users/boryanailieva/Projects/Data/soepcore_prep.dta')
+
 moments_obs = get_moments_obs(data_frame_observed)
 
 # Get weighting matrix
@@ -31,10 +36,10 @@ weighting_matrix = get_weighting_matrix(
 # Specify init file
 init_file_name = "sim_toy_model_init_file_1000.yml"
 
-# Define objective function as a function of the parameter vector only
+# # Define objective function as a function of the parameter vector only
 objective = partial(get_objective, init_file_name, moments_obs, weighting_matrix)
 
-###############################
+# ##############################
 # # Test
 #
 # # Define starting values
@@ -54,6 +59,9 @@ objective = partial(get_objective, init_file_name, moments_obs, weighting_matrix
 #         0.073,
 #         1.88,
 #         2.33,
+#         -0.200,
+#         -0.500,
+#         0.5,
 #         0.010,
 #         0.200,
 #         0.400,
@@ -66,8 +74,8 @@ objective = partial(get_objective, init_file_name, moments_obs, weighting_matrix
 # )
 #
 # print(crit_function_value)
-
-##############################
+#
+# ##############################
 
 
 # Define starting values
@@ -87,6 +95,9 @@ optim_paras_start = np.tile(
         0.073,
         1.88,
         2.33,
+        -0.200,
+        -0.500,
+        0.5,
         0.010,
         0.200,
         0.400,

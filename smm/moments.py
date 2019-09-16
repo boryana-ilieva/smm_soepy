@@ -12,11 +12,11 @@ def get_moments(data):
     # Determine the observed wage given period choice
     def get_observed_wage(row):
         if row["Choice"] == 2:
-            return row["Period Wage F"]
+            return row["Period_Wage_F"]
         elif row["Choice"] == 1:
-            return row["Period Wage P"]
+            return row["Period_Wage_P"]
         elif row["Choice"] == 0:
-            return row["Period Wage N"]
+            return row["Period_Wage_N"]
         else:
             return np.nan
 
@@ -26,11 +26,11 @@ def get_moments(data):
 
     # Determine the education level
     def get_educ_level(row):
-        if row["Years of Education"] >= 10 and row["Years of Education"] < 12:
+        if row["Years_of_Education"] >= 10 and row["Years_of_Education"] < 12:
             return 0
-        elif row["Years of Education"] >= 12 and row["Years of Education"] < 16:
+        elif row["Years_of_Education"] >= 12 and row["Years_of_Education"] < 16:
             return 1
-        elif row["Years of Education"] >= 16:
+        elif row["Years_of_Education"] >= 16:
             return 2
         else:
             return np.nan
