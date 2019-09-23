@@ -2,7 +2,7 @@
 -   -   - GENERAL
         -   num_periods: 30
     -   - CONSTANTS
-        -   benefits: 6.0
+        -   benefits: 4.0
             delta: 0.98
             mu: -0.56
     -   - INITIAL_CONDITIONS

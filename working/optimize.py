@@ -87,9 +87,9 @@ optim_paras_start = np.tile(
         0.112,
         0.199,
         0.266,
-        0.150,
-        0.096,
-        0.116,
+        0.20,
+        0.20,
+        0.20,
         0.081,
         0.057,
         0.073,
@@ -106,8 +106,61 @@ optim_paras_start = np.tile(
 )
 
 
-lower = optim_paras_start * 0.7
-upper = optim_paras_start * 1.3
+# lower = optim_paras_start * 0.4
+# upper = optim_paras_start * 1.7
+
+lower = np.tile(
+    (
+        1.000,
+        1.000,
+        1.000,
+        0.050,
+        0.050,
+        0.050,
+        0.005,
+        0.005,
+        0.005,
+        0.001,
+        0.001,
+        0.001,
+        1.00,
+        1.00,
+        -0.400,
+        -0.800,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+    ),
+    1,
+)
+
+upper = np.tile(
+    (
+        3.000,
+        3.000,
+        3.000,
+        0.400,
+        0.400,
+        0.400,
+        0.600,
+        0.600,
+        0.600,
+        0.150,
+        0.150,
+        0.150,
+        4.00,
+        4.00,
+        -0.050,
+        -0.150,
+        0.999,
+        0.800,
+        0.800,
+        0.800,
+    ),
+    1,
+)
+
 
 # Log
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -117,8 +170,8 @@ soln = pybobyqa.solve(
     objective,
     optim_paras_start,
     rhobeg=0.01,
-    rhoend=1e-4,
-    maxfun=1200,
+    rhoend=1e-9,
+    maxfun=5000,
     bounds=(lower, upper),
     scaling_within_bounds=True,
 )
