@@ -70,6 +70,7 @@ model_spec_init_file_name = "init_files/model_spec_init_test_seed_30000.yml"
 data_file_name = "init_files/data_obs_3types_9000.pkl"
 log_file_name_extension = "test_seed"
 
+
 moments_obs, weighting_matrix, model_params_df = prepare_estimation(
     model_params_init_file_name, model_spec_init_file_name, data_file_name, lower, upper
 )
