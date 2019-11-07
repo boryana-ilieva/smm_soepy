@@ -65,17 +65,17 @@ upper = np.tile(
     1,
 )
 
-model_params_init_file_name = "init_file/toy_model_init_file_03_3types.pkl"
-model_spec_init_file_name = "init_files/model_spec_init_test_seed_30000.yml"
+model_params_init_file_name = "init_files/toy_model_init_file_03_3types.pkl"
+model_spec_init_file_name = "init_files/model_spec_init_test_delta0_30000.yml"
 data_file_name = "init_files/data_obs_3types_9000.pkl"
-log_file_name_extension = "test_seed"
+log_file_name_extension = "test_delta0"
 
 
 moments_obs, weighting_matrix, model_params_df = prepare_estimation(
     model_params_init_file_name, model_spec_init_file_name, data_file_name, lower, upper
 )
 
-max_evals = 2000
+max_evals = 1000
 
 adapter_smm = SimulationBasedEstimationCls(
     params=model_params_df,
