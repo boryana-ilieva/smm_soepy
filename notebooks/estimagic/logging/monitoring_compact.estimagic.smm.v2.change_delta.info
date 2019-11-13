@@ -1,0 +1,2376 @@
+
+
+EVALUATION              0
+
+
+
+    fval        0.44707
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        0.45221
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        0.42717
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        0.81123
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        2.58968
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        5.30886
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        8.45616
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       15.00769
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       22.37556
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       29.69353
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       36.62592
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       43.05813
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       49.80867
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       56.08248
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       61.89016
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        0.41978
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        0.84681
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        2.76916
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        5.77518
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        9.29291
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       16.77908
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       25.11897
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       33.36855
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       41.34373
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       48.41902
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       55.90626
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       62.94148
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       69.34249
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        0.41978
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        0.43487
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        0.43487
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        0.92459
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        3.11257
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        6.62143
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       10.75091
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       19.69783
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       30.00488
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       40.14548
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       50.13985
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       58.99919
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       68.33488
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       77.09183
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval       85.43309
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+
+
+
+EVALUATION              0
+
+
+
+    fval        0.43487
+
+const_wage_eq      gamma_0s1          1.925
+
+const_wage_eq      gamma_0s2          1.991
+
+const_wage_eq      gamma_0s3          1.974
+
+exp_returns      gamma_1s1          0.122
+
+exp_returns      gamma_1s2          0.157
+
+exp_returns      gamma_1s3          0.273
+
+exp_accm           g_s1          0.181
+
+exp_accm           g_s2          0.094
+
+exp_accm           g_s3          0.128
+
+exp_deprec       delta_s1          0.078
+
+exp_deprec       delta_s2          0.054
+
+exp_deprec       delta_s3           0.07
+
+disutil_work        const_p            1.9
+
+disutil_work        const_f          2.441
+
+hetrg_unobs       theta_p1           -0.2
+
+hetrg_unobs       theta_f1           -0.5
+
+hetrg_unobs       theta_p2           -0.1
+
+hetrg_unobs       theta_f2           -0.3
+
+  shares        share_1            0.2
+
+  shares        share_2            0.3
+
+sd_wage_shock        sigma_1           0.01
+
+sd_wage_shock        sigma_2          0.192
+
+sd_wage_shock        sigma_3           0.47
+

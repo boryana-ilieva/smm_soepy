@@ -1,0 +1,15 @@
+CONSTANTS:
+  benefits: 4.0
+  delta: 0.98
+  mu: -0.56
+GENERAL:
+  num_periods: 30
+INITIAL_CONDITIONS:
+  educ_max: 12
+  educ_min: 10
+SIMULATION:
+  num_agents_sim: 30000
+  seed_sim: 102
+SOLUTION:
+  num_draws_emax: 500
+  seed_emax: 635
