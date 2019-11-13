@@ -65,10 +65,10 @@ upper = np.tile(
     1,
 )
 
-model_params_init_file_name = "init_files/toy_model_init_file_03_3types.pkl"
-model_spec_init_file_name = "init_files/model_spec_init_test_delta0_30000.yml"
+model_params_init_file_name = "init_files/model_params_start_delta0_30000.pkl"
+model_spec_init_file_name = "init_files/model_spec_init_test_zero_30000.yml"
 data_file_name = "init_files/data_obs_3types_9000.pkl"
-log_file_name_extension = "test_delta0"
+log_file_name_extension = "test_delta0_start"
 
 
 moments_obs, weighting_matrix, model_params_df = prepare_estimation(
