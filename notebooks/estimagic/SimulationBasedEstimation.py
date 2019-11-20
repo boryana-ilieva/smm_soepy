@@ -45,6 +45,7 @@ class SimulationBasedEstimationCls:
         # Obtain criterion function value
         fval, stats_obs, stats_sim = self._calculate_criterion_func_value(params_cand)
 
+        #print(params_cand)
         print (fval)
 
         # Save params and function value as pickle object.
@@ -109,8 +110,8 @@ class SimulationBasedEstimationCls:
         if not os.path.exists("logging/"):
             os.makedirs("logging/")
 
-        fname = "logging/monitoring.estimagic.smm.v2." + self.log_file_name_extension + ".info"
-        fname2 = "logging/monitoring_compact.estimagic.smm.v2." + self.log_file_name_extension + ".info"
+        fname = "logging/monitoring.estimagic.smm.v3." + self.log_file_name_extension + ".info"
+        fname2 = "logging/monitoring_compact.estimagic.smm.v3." + self.log_file_name_extension + ".info"
 
         if self.num_evals == 1 and os.path.exists(fname):
             os.unlink(fname)

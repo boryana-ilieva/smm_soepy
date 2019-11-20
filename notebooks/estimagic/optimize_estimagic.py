@@ -27,8 +27,8 @@ lower = np.tile(
         -0.800,
         -0.400,
         -0.800,
-        0.001,
-        0.001,
+        0.05,
+        0.10,
         0.001,
         0.001,
         0.001,
@@ -56,8 +56,8 @@ upper = np.tile(
         -0.150,
         -0.050,
         -0.150,
-        0.999,
-        0.999,
+        0.400,
+        0.500,
         0.800,
         0.800,
         0.800,
@@ -65,8 +65,8 @@ upper = np.tile(
     1,
 )
 
-model_params_init_file_name = "init_files/model_params_start_delta0_30000.pkl"
-model_spec_init_file_name = "init_files/model_spec_init_test_zero_30000.yml"
+model_params_init_file_name = "init_files/toy_model_init_file_03_3types_delta0.pkl"
+model_spec_init_file_name = "init_files/model_spec_init.yml"
 data_file_name = "init_files/data_obs_3types_9000.pkl"
 log_file_name_extension = "test_delta0_start"
 
