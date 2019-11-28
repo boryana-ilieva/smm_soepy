@@ -8,4 +8,5 @@ dependencies:
 - pandas
 - numba
 - pyyaml
-- pip: [Py-BOBYQA, black]
+- smm_estimagic
+- pip: [black]
