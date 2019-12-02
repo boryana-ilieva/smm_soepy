@@ -62,7 +62,7 @@ upper = np.tile(
 
 model_params_init_file_name = "init_files/toy_model_init_file_03_2types.pkl"
 model_spec_init_file_name = "init_files/model_spec_init.yml"
-log_file_name_extension = "test"
+log_file_name_extension = "data_v2"
 
 
 model_params_df = prepare_estimation(
@@ -75,7 +75,7 @@ with open('init_files/moments_obs.pkl', 'rb') as f:
 with open('init_files/weighting_matrix.pkl', 'rb') as f:
     weighting_matrix = pickle.load(f)
 
-max_evals = 2
+max_evals = 2000
 
 adapter_smm = SimulationBasedEstimationCls(
     params=model_params_df,
@@ -87,7 +87,7 @@ adapter_smm = SimulationBasedEstimationCls(
     max_evals=max_evals,
 )
 
-algo_options = {"stopeval": 1e-9}
+algo_options = {"stopeval": 1e-14}
 
 
 result = minimize(
