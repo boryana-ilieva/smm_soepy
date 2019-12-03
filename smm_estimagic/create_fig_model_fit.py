@@ -47,7 +47,8 @@ def create_fig_model_fit():
 
         ax.legend(["Simulated", "Observed"])
 
-        plt.savefig("figures/choice_prob_" + str(choice) + ".png", ax = ax, bbox_inches='tight')
+        plt.savefig("figures/choice_prob_" + str(choice) + ".pdf", ax = ax, bbox_inches='tight')
+        plt.close()
 
     # Plot wages
     obs_wages = []
@@ -72,4 +73,5 @@ def create_fig_model_fit():
 
     ax.legend(["Simulated", "Observed"])
 
-    plt.savefig('figures/wages.png', ax = ax, bbox_inches='tight')
+    plt.savefig('figures/wages.pdf', ax = ax, bbox_inches='tight')
+    plt.close()

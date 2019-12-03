@@ -10,4 +10,4 @@ np.testing.assert_equal(sys.version_info[:2] >= (3, 6), True)
 # We rely on relative paths throughout the package.
 PACKAGE_DIR = Path(__file__).parent.absolute()
 INIT_FILES_DIR = PACKAGE_DIR / "smm_estimagic" / "init_files"
-print(INIT_FILES_DIR)
+LOG_FILES_DIR = PACKAGE_DIR / "smm_estimagic" / "logging"

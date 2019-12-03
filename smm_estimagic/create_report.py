@@ -8,7 +8,7 @@ import shutil
 import glob
 import os
 
-# from PyPDF2 import PdfFileMerger
+from PyPDF2 import PdfFileMerger
 
 from smm_estimagic.create_fig_model_fit import create_fig_model_fit
 
@@ -53,10 +53,10 @@ if __name__ == "__main__":
     if args.is_model_fit or args.is_all:
         create_fig_model_fit()
 
-    # # We merge all output for easier accessibility in a single document and store it in the
-    # # estimation directory.
-    # merger = PdfFileMerger()
-    # for fname in sorted(glob.glob(f"figures/*.pdf")):
-    #     merger.append(fname)
-    # merger.write(f"estimation-report.pdf")
-    # merger.close()
+    # We merge all output for easier accessibility in a single document and store it in the
+    # estimation directory.
+    merger = PdfFileMerger()
+    for fname in sorted(glob.glob(f"figures/*.pdf")):
+        merger.append(fname)
+    merger.write(f"figures/estimation_report.pdf")
+    merger.close()
